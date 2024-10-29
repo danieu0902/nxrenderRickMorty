@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-export const dynamic = 'force-dynamic'
-
 
 async function fetchProducts() {
   const res = await fetch('https://dummyjson.com/products');
