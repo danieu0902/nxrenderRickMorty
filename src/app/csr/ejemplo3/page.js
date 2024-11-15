@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 
 function Page() {
-    const [products, setProducts] = useState([])
+    const [characters, setCharacters] = useState([])
 
     useEffect(() => {
         // fetch('https://dummyjson.com/products')
