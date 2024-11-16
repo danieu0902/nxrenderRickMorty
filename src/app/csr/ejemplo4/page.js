@@ -28,8 +28,10 @@ function Page() {
                 {
                    pokemons.map(pokemon => (
                         <li className="py-20 text-center">
+                            
                             <h1>{pokemon.name}</h1>
                             <b>{pokemon.url}:</b> {pokemon.created}
+
                             
                         </li>
                     ))
