@@ -35,7 +35,7 @@ export default async function Home() {
             </div>
 
             <div>
-            <h3 className='text-2xl'>EJEMPLO 3</h3>
+            <h3 className='text-2xl'>EJEMPLO 3 (Rick y Morty API)</h3>
                 <ul>
                     <li>
                         <Link href="/csr/ejemplo3.html" className="text-blue-500 hover:underline">CSR Javascript</Link>
@@ -45,6 +45,21 @@ export default async function Home() {
                     </li>
                     <li>
                         <Link href="/ssr/ejemplo3" className="text-blue-500 hover:underline">SSR Next</Link>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+            <h3 className='text-2xl'>EJEMPLO 4 (Pokemon API)</h3>
+                <ul>
+                    <li>
+                        <Link href="/csr/ejemplo4.html" className="text-blue-500 hover:underline">CSR Javascript</Link>
+                    </li>
+                    <li>
+                        <Link href="/csr/ejemplo4" className="text-blue-500 hover:underline">CSR React</Link>
+                    </li>
+                    <li>
+                        <Link href="/ssr/ejemplo4" className="text-blue-500 hover:underline">SSR Next</Link>
                     </li>
                 </ul>
             </div>
